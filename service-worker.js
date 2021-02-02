@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/bengosney/random-fractal/precache-manifest.a2028d34632505219bab28a58825654d.js"
+  "/random-fractal/precache-manifest.383d6156cd93222c5d87996e061c5785.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/bengosney/random-fractal/index.html", {
+workbox.routing.registerNavigationRoute("/random-fractal/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
